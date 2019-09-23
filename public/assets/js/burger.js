@@ -25,6 +25,7 @@ $(function() {
     var devouredState = {
       devoured: 1
     };
+
     $.ajax("/api/burgers/" + id, {
       type: "PUT",
       data: devouredState
@@ -39,7 +40,6 @@ $(function() {
 
     var id = $(this).data("id");
 
-    // Send the DELETE request.
     $.ajax({
       type: "DELETE",
       url: "/api/burgers/" + id

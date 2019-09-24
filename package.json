@@ -1,27 +1,27 @@
 {
-  "name": "burger",
+  "name": "burgers",
   "version": "1.0.0",
-  "description": "A restaurant app that allows you to make and eat delicious burgers",
-  "main": "index.js",
+  "description": "",
+  "main": "server.js",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "express-handlebars": "^3.1.0",
+    "mysql": "^2.17.1"
+  },
+  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ShivamSukhwal/burger.git"
+    "url": "git+https://github.com/ShivamSukhwal/Burgers.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/ShivamSukhwal/burger/issues"
+    "url": "https://github.com/ShivamSukhwal/Burgers/issues"
   },
-  "homepage": "https://github.com/ShivamSukhwal/burger#readme",
-  "dependencies": {
-    "body-parser": "^1.18.3",
-    "express": "^4.17.1",
-    "express-handlebars": "^3.1.0",
-    "mysql": "^2.17.1"
-  },
-  "devDependencies": {}
+  "homepage": "https://github.com/ShivamSukhwal/Burgers#readme"
 }
